@@ -1,0 +1,60 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025 8.30 -2025
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.061s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: B4:A7:C6:CE:D9:6D (Servercom (India) Private Limited)
+
+Nmap scan report for ###.###.##.#
+Host is up (0.12s latency).
+All 1000 scanned ports on 192.###.##.## are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: A2:80:EF:C1:C0:DB (Unknown)
+
+Nmap scan report for 192.###.##.##
+Host is up (0.030s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+7000/tcp open  afs3-fileserver
+8001/tcp open  vcom-tunnel
+8002/tcp open  teradataordbms
+8080/tcp open  http-proxy
+MAC Address: 54:44:A3:3F:5C:02 (Samsung Electronics)
+
+Nmap scan report for 192.###.##.##
+Host is up (0.014s latency).
+All 1000 scanned ports on 192.###.##.## are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 4E:5C:2B:0F:8D:BD (Unknown)
+
+Nmap scan report for 192.###.##.###
+Host is up (0.064s latency).
+All 1000 scanned ports on 192.###.###.## are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 62:3A:62:02:CB:65 (Unknown)
+
+Nmap scan report for 192.###.##.##
+Host is up (0.00050s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 140.85 seconds
